@@ -1,1 +1,1 @@
-# project_thingy
+# chaos_game
