@@ -1,1 +1,1 @@
-# choas_game
+# chaos_game
