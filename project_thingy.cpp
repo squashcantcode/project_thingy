@@ -7,10 +7,10 @@ using namespace std;
 int main()
 {
     // Create a video mode object
-	VideoMode vm(1920, 1080);
+    VideoMode vm(1920, 1080);
 
 	// Create and open a window for the game
-	RenderWindow window(vm, "Game", Style::Fullscreen);
+    RenderWindow window(vm, "Game", Style::Fullscreen);
 
     Vector2f v = {1,1};
     RectangleShape rect(Vector2f{20,10});
@@ -50,7 +50,7 @@ int main()
 		Handle the players input
 		****************************************
 		*/
-
+        
 		if (Keyboard::isKeyPressed(Keyboard::Escape))
 		{
 			window.close();
@@ -66,4 +66,5 @@ int main()
         // Show everything we just drew
 		    window.display();
     }
+    return 0;
 }
